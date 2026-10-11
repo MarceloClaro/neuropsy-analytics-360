@@ -1,0 +1,44 @@
+{
+  "Humor": [
+    "Depressão",
+    "Humor deprimido persistente",
+    "Anedonia",
+    "Oscilações de humor",
+    "Desesperança"
+  ],
+  "Ansiedade": [
+    "Ansiedade generalizada",
+    "Ansiedade social",
+    "Pânico",
+    "Fobias",
+    "Pensamentos obsessivos"
+  ],
+  "Neurodesenvolvimento": [
+    "Desatenção/TDAH",
+    "Características autísticas",
+    "Funções executivas",
+    "Altas habilidades/superdotação",
+    "Regulação emocional"
+  ],
+  "Estresse e trauma": [
+    "Estresse percebido",
+    "Esgotamento",
+    "Sobrecarga psicológica",
+    "Reações pós-traumáticas",
+    "Sono"
+  ],
+  "Personalidade e comportamento": [
+    "Impulsividade",
+    "Agressividade",
+    "Evitação",
+    "Dependência interpessoal",
+    "Perfeccionismo"
+  ],
+  "Funcionamento psicossocial": [
+    "Autoestima",
+    "Isolamento social",
+    "Adaptação cotidiana",
+    "Uso problemático de substâncias",
+    "Prejuízo funcional"
+  ]
+}

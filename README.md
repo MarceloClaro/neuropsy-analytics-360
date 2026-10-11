@@ -31,3 +31,11 @@ Contratos: exatamente 30 domínios, respostas inteiras de 0 a 4, tratamento de a
 Para GitHub Pages: Settings → Pages → Build and deployment → GitHub Actions. O workflow `.github/workflows/pages.yml` publica a pasta `frontend`. Para o Streamlit, implante separadamente com `app.py` como entrada.
 
 A publicação de código ou interface não confere validação científica aos itens exploratórios.
+
+## Publicação estática alternativa (sem workflow Actions personalizado)
+
+O frontend foi espelhado de `frontend/` para `docs/` (a igualdade é verificada pelos testes). Em **Settings → Pages → Build and deployment**, selecione **Deploy from a branch**, branch **main**, pasta **/docs** e **Save**. A URL esperada após o GitHub confirmar a publicação é `https://marceloclaro.github.io/neuropsy-analytics-360/`.
+
+O workflow `.github/workflows/pages.yml` é manual para evitar falhas recorrentes antes da configuração de Pages. Os testes SDD/TDD estão em `tests/`, com especificações em `specs/SDD.md`; o workflow de qualidade permanece ativo a cada push.
+
+**Privacidade:** o repositório está público. Se preferir privado, revise a configuração de visibilidade em Settings → General. A disponibilidade de Pages para repositórios privados depende do plano. Não envie dados clínicos reais nem segredos para o GitHub.

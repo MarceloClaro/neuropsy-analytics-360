@@ -1,7 +1,6 @@
-name: Publish frontend
+name: Publicação alternativa do frontend via Actions
+# Também disponível via Settings > Pages > Deploy from a branch > main > /docs.
 on:
-  push:
-    branches: [main]
   workflow_dispatch:
 permissions:
   contents: read
